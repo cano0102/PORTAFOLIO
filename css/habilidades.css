@@ -16,7 +16,7 @@ body {
 }
 
 .marco-celular {
-    height: 100vh;
+    height: auto;
     max-width: 375px;
     background-color: #000220;
     padding: 16px;
