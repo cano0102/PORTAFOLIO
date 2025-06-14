@@ -16,11 +16,10 @@ body {
 }
 
 .marco-celular {
-    width: 100%;
+    height: 100vh;
     max-width: 375px;
     background-color: #000220;
     padding: 16px;
-    border-radius: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     overflow: hidden;
 }
