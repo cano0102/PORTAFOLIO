@@ -17,6 +17,7 @@ body {
   align-items: center;
   font-family: sans-serif;
   color: white;
+  
 }
 
 .marco-celular {
@@ -162,6 +163,7 @@ img {
 .footer-nav li a{
   color: rgb(24, 143, 255);
     text-decoration: none;
+
 
 }
 
