@@ -67,3 +67,59 @@
     display: flex;
     justify-content: center;
 }
+
+
+
+
+.sesion1 {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    
+    
+}
+
+.sesion1::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+h1 strong {
+  color: white;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.creative {
+  color: #00e676;
+  font-weight: 500; 
+}
+
+.texto {
+  font-size: 0.9em;
+  margin-top: 20px;
+  color: #ccc;
+  position: relative;
+}
+
