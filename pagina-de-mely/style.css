@@ -82,18 +82,8 @@
     
 }
 
-.sesion1::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  
-}
 
-.content {
-  position: relative;
-  z-index: 1;
-  padding: 20px;
-}
+
 
 h1 {
   font-size: 3em;
@@ -123,3 +113,78 @@ h2 {
   position: relative;
 }
 
+
+.cubos{
+  height: 300px;
+  width: 100%;
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.features{
+  color: #00c8a9;
+  font-weight: 500;
+  font-weight: bold;
+}
+
+
+.sub-cubos{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+
+}
+
+
+
+.cubo{
+  height: 200px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: self-start;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+
+h3{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon{
+  display: flex;
+  position: relative;
+  right: 31px;
+  top: 37px;
+  color: #00c8a9;
+}
+
+
+.grid-container {
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  
+  
+}
+
+.item {
+
+  height: 200px;
+  background-color: #26c6da;
+  color: white;
+  text-align: center;
+  border: solid red 1px;
+
+}
