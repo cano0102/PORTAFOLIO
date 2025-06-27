@@ -171,20 +171,22 @@ h3{
 }
 
 
-.grid-container {
+.imagenes {
 
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
+  height: auto;
+  width: 100%;
+  border: #00c8a9 solid 3px;
   
   
 }
 
-.item {
-
-  height: 200px;
-  background-color: #26c6da;
-  color: white;
-  text-align: center;
-  border: solid red 1px;
-
+.imagen{
+  
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  width: 340px;
+  
 }
