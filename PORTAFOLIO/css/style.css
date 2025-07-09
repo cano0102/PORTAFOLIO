@@ -1,3 +1,4 @@
+
 html{
   scroll-behavior: smooth;
 }
@@ -17,7 +18,7 @@ html{
   --color-gris-claro: #cfd8dc;
   --color-negro: #000000;
 
-  /* Sombras y efectos */
+
   --sombra-texto: 0 0 8px var(--color-secundario);
   --sombra-glow: 0 0 15px var(--color-primario);
 }
@@ -104,17 +105,26 @@ header nav a:hover{
 
 .foto-anderson,
 img {
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
   border-radius: 50%;
   object-fit: cover;
   background-position: center;
   object-position: center 5%;
   
 }
-.foto-anderson img {
-  border: 3px solid #188fff; 
+
+.foto-anderson {
+ 
+  border-radius: 50%;
+  box-shadow: 0 0 15px #00bfff, 0 0 30px #4ac9ff;
+  transition: box-shadow 0.3s ease;
 }
+
+.foto-anderson:hover {
+  box-shadow: 0 0 20px #00bfff, 0 0 40px #4ac9ff, 0 0 60px #00bfff;
+}
+
 
 
 .DescripcionYNombres {
