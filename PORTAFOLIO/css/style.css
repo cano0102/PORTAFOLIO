@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(255, 255, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+/* Estilo base */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+/* Teléfonos pequeños (hasta 480px): menú abajo del logo */
+@media (max-width: 480px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .menu a {
+    padding: 10px 0;
+  }
+}
+
+/* Tablets (481px a 768px): menú centrado debajo del logo */
+@media (min-width: 481px) and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .menu {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
+
+/* Laptops medianos (769px a 1024px): logo izquierda, menú derecha horizontal */
+@media (min-width: 769px) and (max-width: 1024px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 40px;
+  }
+
+  .menu {
+    flex-direction: row;
+  }
+}
+
+/* Escritorio grande (1025px en adelante): mayor separación */
+@media (min-width: 1025px) {
+  header {
+    padding: 20px 100px;
+  }
+
+  .logo {
+    font-size: 32px;
+  }
+
+  .menu a {
+    font-size: 18px;
+  }
+}
