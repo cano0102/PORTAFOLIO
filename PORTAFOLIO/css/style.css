@@ -1,94 +1,205 @@
+html{
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-header {
-  width: 100%;
-  background-color: rgb(255, 255, 0);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  flex-wrap: wrap;
+:root {
+  
+  --color-fondo: #0a0f29;
+  --color-primario: #00bfff;  
+  --color-secundario: #4ac9ff;
+  --color-blanco: #ffffff;
+  --color-gris-claro: #cfd8dc;
+  --color-negro: #000000;
+
+  /* Sombras y efectos */
+  --sombra-texto: 0 0 8px var(--color-secundario);
+  --sombra-glow: 0 0 15px var(--color-primario);
 }
 
-/* Estilo base */
-.logo {
-  font-size: 24px;
+
+body{
+  display: flex;
+  height: 100vh;
+  background-color: black; 
+  min-height: 100vh;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+  
+
+
+.contenedor-principal{
+  height: 100vh;
+  max-width: 480px;
+  background-color: #0a0f29;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+}
+
+
+header {
+
+  
+  color: white;
+  padding: 20px;
+  border-bottom: solid 1px rgb(24, 143, 255);
+
+}
+
+header h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+header nav a:hover{
+  color: #00bfff;
+  text-shadow: 0px 0px 5px #00bfff;
+}
+
+
+.inicio {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.presentacion {
+  
+  max-width: 480px;
+  width: 100%;
+  background-color: #0a0f29;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0;
+  gap: 20px;
+
+  
+}
+
+.foto-anderson,
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-position: center;
+  object-position: center 5%;
+  
+}
+.foto-anderson img {
+  border: 3px solid #188fff; 
+}
+
+
+.DescripcionYNombres {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+
+.nombre {
+  color: #00bfff;
   font-weight: bold;
 }
-
-.menu {
+.cv-contacto{
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 50px;
+  width: 100%;
+  max-width: 480px;
+  gap: 38px;
 }
 
-.menu a {
+.boton {
+  background: var(--color-primario);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px var(--color-primario);
+  transition: transform 0.2s ease;
   text-decoration: none;
-  color: #000;
-  font-weight: 500;
+  
 }
 
-/* Teléfonos pequeños (hasta 480px): menú abajo del logo */
-@media (max-width: 480px) {
-  header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
 
-  .menu {
-    flex-direction: column;
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  .menu a {
-    padding: 10px 0;
-  }
+.boton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px var(--color-secundario);
 }
 
-/* Tablets (481px a 768px): menú centrado debajo del logo */
-@media (min-width: 481px) and (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .menu {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 10px;
-  }
+.boton-outlined {
+  background: transparent;
+  color: var(--color-primario);
+  border: 2px solid var(--color-primario);
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  text-decoration: none;
 }
 
-/* Laptops medianos (769px a 1024px): logo izquierda, menú derecha horizontal */
-@media (min-width: 769px) and (max-width: 1024px) {
-  header {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px 40px;
-  }
-
-  .menu {
-    flex-direction: row;
-  }
+.boton-outlined:hover {
+  background: var(--color-primario);
+  color: white;
 }
 
-/* Escritorio grande (1025px en adelante): mayor separación */
-@media (min-width: 1025px) {
-  header {
-    padding: 20px 100px;
-  }
 
-  .logo {
-    font-size: 32px;
-  }
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 50px;
+  width: 100%;
+  max-width: 480px;
 
-  .menu a {
-    font-size: 18px;
-  }
+}
+
+.iconos-redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.iconos-redes i {
+  color: white;
+  font-size: 18px;
+}
+
+
+.iconos-redes i:hover {
+  color: var(--color-primario);
+  text-shadow: 0 0 10px var(--color-primario);
 }
