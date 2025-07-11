@@ -226,6 +226,7 @@ Estilos De Descripcion Y Nombres */
   justify-content: center;
   align-items: center;
   display: flex;
+  text-decoration: none;
   transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
   
   
@@ -304,3 +305,6 @@ Estilos De Descripcion Y Nombres */
   border-top: solid 1px var(--color-primario);
   
 }
+
+
+
