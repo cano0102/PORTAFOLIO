@@ -274,7 +274,6 @@ Estilos De Descripcion Y Nombres */
   flex-direction: column;
   gap: 20px;
   
-  
 }
 
 .quien-soy{
@@ -282,29 +281,78 @@ Estilos De Descripcion Y Nombres */
   width: 100%;
   max-width: 450px;
   background-color: #10173a ;
-  display: flex;
   border-radius: 10%;
-  border-top:solid 1px  var(--color-primario);
+  border-top:solid 3px  var(--color-primario);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
 }
 .mi-objetivo{
   height: 200px;
   width: 100%;
   max-width: 450px;
   background-color: #10173a ;
-  display: flex; 
   border-radius: 10%; 
-  border-top: solid 1px var(--color-primario); 
+  border-top: solid 3px var(--color-primario);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+
 }
 .mi-perfil{
   height: 200px;
   width: 100%;
   max-width: 450px;
   background-color: #10173a ;
-  display: flex;
   border-radius: 10%;
-  border-top: solid 1px var(--color-primario);
+  border-top: solid 3px var(--color-primario);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+.titulo-sobremi{
+  color: #00bfff;
+  font-size: 19px;
+  text-shadow: 0px 0px 5px #00bfff;
+}
+
+.icono-sobremi{
+  height: 60px;
+  max-width: 450px;
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+
+
+}
+
+.parrafo-sobremi{
+  height: 90px;
+  max-width: 450px;
+  width: 90%;
+  color: wheat;
   
 }
 
-
+.icono-sobremi i{
+  font-size: 20px;
+  color: #00bfff;
+  background-color: #00bfff1a;
+  height: 39px;
+  width: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  
+  
+}
 
