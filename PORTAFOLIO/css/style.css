@@ -64,6 +64,8 @@ header h1 {
   font-size: 2.2rem;
   margin-bottom: 10px;
   text-align: center;
+    text-shadow: 0 0 10px white, 0 0 20px white;
+
 }
 
 header nav {
@@ -248,6 +250,12 @@ Estilos De Descripcion Y Nombres */
 }
 
 
+
+
+
+
+
+
 /* segunda sesion : sesion sobre mi */
 
 
@@ -271,6 +279,8 @@ Estilos De Descripcion Y Nombres */
    justify-content: center;
    align-items: center;
    margin-top: 37px;
+     text-shadow: 0 0 10px white, 0 0 20px white;
+
 }
 
 #titulo{
@@ -279,6 +289,12 @@ Estilos De Descripcion Y Nombres */
   
 
 }
+
+
+
+
+
+/* cubos sobre mi */
 
 .info-cubos{
   height: 100%;
@@ -384,7 +400,7 @@ Estilos De Descripcion Y Nombres */
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  gap: 20px;
+  gap: 80px;
 }
 
 .contenedor-habilidades{
@@ -394,25 +410,37 @@ Estilos De Descripcion Y Nombres */
   display: flex;
   justify-content: center;
   align-items: center;
+  text-shadow: 0 0 10px white, 0 0 20px white;
+
   font-size: 20px;
-  align-items: center;
-
-
-
+  font-weight: bold;
+  text-align: center;
+  
+  
 }  
+
+
+
+
+/* contenedores donde estan los iconos */
 
 .contenedor-iconos{
   max-width: 480px;
   width: 90%;
   display: grid;
   grid-template-columns: 130px 130px 130px; /* 3 columnas de 100px */
-  grid-template-rows: 200px 200px;
+  grid-template-rows: 150px 150px;
   justify-content: center;
-  gap: 15px;
+  gap: 25px;
   
   
+  
+  
+}
 
-
+.contenedor-iconos :hover{
+    transform: scale(1.15);
+      transition: transform 0.3s ease;
 }
 
 .iconos-javaScript{
@@ -423,7 +451,8 @@ Estilos De Descripcion Y Nombres */
   font-size: 80px;
   border-radius: 20px;
   color: rgb(200, 200, 45);
-    box-shadow: 0 0 15px #00bfff, 0 0 10px #4ac9ff;
+  box-shadow: 0 0 10px rgb(200, 200, 45), 0 0 10px rgb(200, 200, 45);
+  flex-direction: column;
 
 }
 
@@ -434,8 +463,9 @@ Estilos De Descripcion Y Nombres */
   background-color: #10173a;
   font-size: 80px;
   border-radius: 20px;
-  color: rgb(0, 43, 86);
-    box-shadow: 0 0 15px #00bfff, 0 0 10px #4ac9ff;
+  color: rgb(138, 5, 226);
+    box-shadow: 0 0 10px rgb(138, 5, 226), 0 0 10px rgb(138, 5, 226);
+    flex-direction: column;
 }
 
 .iconos-css{
@@ -446,7 +476,8 @@ Estilos De Descripcion Y Nombres */
   font-size: 80px;
   border-radius: 20px;
   color: rgb(2, 129, 255);
-    box-shadow: 0 0 15px #00bfff, 0 0 10px #4ac9ff;
+    box-shadow: 0 0 10px rgb(2, 129, 255), 0 0 10px rgb(2, 129, 255);
+      flex-direction: column;
 }
 
 .iconos-html{
@@ -457,7 +488,8 @@ Estilos De Descripcion Y Nombres */
   font-size: 80px;
   border-radius: 20px;
   color: rgb(255, 55, 19);
-    box-shadow: 0 0 15px #00bfff, 0 0 10px #4ac9ff;
+    box-shadow: 0 0 10px  rgb(255, 55, 19), 0 0 10px  rgb(255, 55, 19);
+      flex-direction: column;
 }
 
 .iconos-python{
@@ -468,7 +500,8 @@ Estilos De Descripcion Y Nombres */
   font-size: 80px;
   border-radius: 20px;
   color: rgb(7, 24, 204);
-    box-shadow: 0 0 15px #00bfff, 0 0 10px #4ac9ff;
+    box-shadow: 0 0 10px rgb(7, 24, 204), 0 0 10px rgb(7, 24, 204);
+      flex-direction: column;
 }
 
 .iconos-bootstrap{
@@ -479,5 +512,14 @@ Estilos De Descripcion Y Nombres */
   font-size: 80px;
   border-radius: 20px;
   color: rgb(202, 4, 212);
-    box-shadow: 0 0 15px #00bfff, 0 0 10px #4ac9ff;
+    box-shadow: 0 0 10px rgb(202, 4, 212), 0 0 10px rgb(202, 4, 212);
+      flex-direction: column;
+}
+
+
+
+
+.texto-iconos{
+  font-size: 20px;
+  color: white;
 }
