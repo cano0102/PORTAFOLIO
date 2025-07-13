@@ -421,8 +421,9 @@ Estilos De Descripcion Y Nombres */
   align-items: center;
   background-color: #10173a;
   font-size: 80px;
-  border-radius: 30px;
+  border-radius: 20px;
   color: rgb(200, 200, 45);
+    box-shadow: 0 0 15px #00bfff, 0 0 10px #4ac9ff;
 
 }
 
@@ -432,8 +433,9 @@ Estilos De Descripcion Y Nombres */
   align-items: center;
   background-color: #10173a;
   font-size: 80px;
-  border-radius: 30px;
+  border-radius: 20px;
   color: rgb(0, 43, 86);
+    box-shadow: 0 0 15px #00bfff, 0 0 10px #4ac9ff;
 }
 
 .iconos-css{
@@ -442,8 +444,9 @@ Estilos De Descripcion Y Nombres */
   align-items: center;
   background-color: #10173a;
   font-size: 80px;
-  border-radius: 30px;
+  border-radius: 20px;
   color: rgb(2, 129, 255);
+    box-shadow: 0 0 15px #00bfff, 0 0 10px #4ac9ff;
 }
 
 .iconos-html{
@@ -452,8 +455,9 @@ Estilos De Descripcion Y Nombres */
   align-items: center;
   background-color: #10173a;
   font-size: 80px;
-  border-radius: 30px;
+  border-radius: 20px;
   color: rgb(255, 55, 19);
+    box-shadow: 0 0 15px #00bfff, 0 0 10px #4ac9ff;
 }
 
 .iconos-python{
@@ -462,8 +466,9 @@ Estilos De Descripcion Y Nombres */
   align-items: center;
   background-color: #10173a;
   font-size: 80px;
-  border-radius: 30px;
+  border-radius: 20px;
   color: rgb(7, 24, 204);
+    box-shadow: 0 0 15px #00bfff, 0 0 10px #4ac9ff;
 }
 
 .iconos-bootstrap{
@@ -472,6 +477,7 @@ Estilos De Descripcion Y Nombres */
   align-items: center;
   background-color: #10173a;
   font-size: 80px;
-  border-radius: 30px;
+  border-radius: 20px;
   color: rgb(202, 4, 212);
+    box-shadow: 0 0 15px #00bfff, 0 0 10px #4ac9ff;
 }
