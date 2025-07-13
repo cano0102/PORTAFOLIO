@@ -517,3 +517,28 @@ Estilos De Descripcion Y Nombres */
   font-size: 20px;
   color: white;
 }
+
+
+
+
+/* sesion de los proyectos */
+
+.sesion-proyectos{
+  min-height: 100vh;
+  width: 100%;
+  max-width: 480px;
+  background-color: #0a0f29;
+  display: flex;
+  justify-content: center;
+}
+
+
+.titulo-proyectos{
+ color: white;
+ display: flex;
+ margin-top: 40px;
+}
+
+.contenedor-proyectos{
+
+}
