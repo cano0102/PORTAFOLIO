@@ -539,6 +539,7 @@ Estilos De Descripcion Y Nombres */
  color: white;
  display: flex;
  margin-top: 40px;
+ text-shadow: 0 0 10px white, 0 0 20px white;
 }
 
 .contenedor-proyectos{
@@ -546,7 +547,6 @@ Estilos De Descripcion Y Nombres */
   max-width: 480PX;
   width: 100%;
   height: auto;
-  border: #000000 solid 2px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -560,21 +560,21 @@ Estilos De Descripcion Y Nombres */
   max-width: 480PX;
   width: 95%;
   height: 270px;
-  border: solid 2px rebeccapurple;
+  border-radius: 30px;
 }
 
 .proyecto-2{
   max-width: 480PX;
   width: 95%;
   height: 270px;
-  border: solid 2px rebeccapurple;
+  border-radius: 30px;
 }
 
 .proyecto-3{
   max-width: 480PX;
   width: 95%;
   height: 270px;
-  border: solid 2px rebeccapurple;
+  border-radius: 30px;
 }
 
 
@@ -582,22 +582,81 @@ Estilos De Descripcion Y Nombres */
 /* contenido de los proyectos */
 
 
-.imagen-proyecto{
+.imagen-proyecto1{
   max-width: 480PX;
   width: 100%;
   height: 135px;
-  border: solid red 1px;
-  background-color: rgb(3, 255, 99);
+  background-image: url(./img/nat1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
+.imagen-proyecto2{
+  max-width: 480PX;
+  width: 100%;
+  height: 135px;
+  background-image: url(./img/ima2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.imagen-proyecto3{
+  max-width: 480PX;
+  width: 100%;
+  height: 135px;
+  background-image: url(./img/ima3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.contenido-proyecto{
+  max-width: 480PX;
+  width: 100%;
+  height: 135px;
+  background-color: #10173a;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .titulo-proyecto{
+  max-width: 480PX;
+  width: 100%;
+  height: 35px;
   color: white;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .parrafo-proyecto{
+  max-width: 480PX;
+  width: 90%;
+  height: 70px;
   color: white;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .herramientas-proyectos{
+  max-width: 480PX;
+  width: 100%;
+  height: 30px;
   color: #216dfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
