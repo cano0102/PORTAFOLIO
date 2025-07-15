@@ -576,3 +576,28 @@ Estilos De Descripcion Y Nombres */
   height: 270px;
   border: solid 2px rebeccapurple;
 }
+
+
+
+/* contenido de los proyectos */
+
+
+.imagen-proyecto{
+  max-width: 480PX;
+  width: 100%;
+  height: 135px;
+  border: solid red 1px;
+  background-color: rgb(3, 255, 99);
+}
+
+.titulo-proyecto{
+  color: white;
+}
+
+.parrafo-proyecto{
+  color: white;
+}
+
+.herramientas-proyectos{
+  color: #216dfb;
+}
