@@ -216,7 +216,9 @@ Estilos De Descripcion Y Nombres */
   max-width: 480px;
 
 }
-
+.iconos-redes a{
+  text-decoration: none;
+}
 .iconos-redes {
   display: flex;
   justify-content: center;
