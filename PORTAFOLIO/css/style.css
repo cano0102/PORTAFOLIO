@@ -486,8 +486,8 @@ Estilos De Descripcion Y Nombres */
   font-size: 80px;
   border-radius: 20px;
   color: rgb(255, 55, 19);
-    box-shadow: 0 0 10px  rgb(255, 55, 19), 0 0 10px  rgb(255, 55, 19);
-      flex-direction: column;
+  box-shadow: 0 0 10px  rgb(255, 55, 19), 0 0 10px  rgb(255, 55, 19);
+  flex-direction: column;
 }
 
 .iconos-python{
@@ -497,8 +497,8 @@ Estilos De Descripcion Y Nombres */
   font-size: 80px;
   border-radius: 20px;
   color: rgb(7, 24, 204);
-    box-shadow: 0 0 10px rgb(7, 24, 204), 0 0 10px rgb(7, 24, 204);
-      flex-direction: column;
+  box-shadow: 0 0 10px rgb(7, 24, 204), 0 0 10px rgb(7, 24, 204);
+  flex-direction: column;
 }
 
 .iconos-bootstrap{
