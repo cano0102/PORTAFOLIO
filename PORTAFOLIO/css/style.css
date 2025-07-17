@@ -508,8 +508,8 @@ Estilos De Descripcion Y Nombres */
   font-size: 80px;
   border-radius: 20px;
   color: rgb(202, 4, 212);
-    box-shadow: 0 0 10px rgb(202, 4, 212), 0 0 10px rgb(202, 4, 212);
-      flex-direction: column;
+  box-shadow: 0 0 10px rgb(202, 4, 212), 0 0 10px rgb(202, 4, 212);
+  flex-direction: column;
 }
 
 
@@ -519,6 +519,38 @@ Estilos De Descripcion Y Nombres */
   font-size: 20px;
   color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -565,20 +597,6 @@ Estilos De Descripcion Y Nombres */
   border-radius: 30px;
 }
 
-.proyecto-2{
-  max-width: 480PX;
-  width: 95%;
-  height: 270px;
-  border-radius: 30px;
-}
-
-.proyecto-3{
-  max-width: 480PX;
-  width: 95%;
-  height: 270px;
-  border-radius: 30px;
-}
-
 
 
 /* contenido de los proyectos */
@@ -596,29 +614,9 @@ Estilos De Descripcion Y Nombres */
   border-top-right-radius: 20px;
 }
 
-.imagen-proyecto2{
-  max-width: 480PX;
-  width: 100%;
-  height: 135px;
-  background-image: url(./img/ima2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
 
-.imagen-proyecto3{
-  max-width: 480PX;
-  width: 100%;
-  height: 135px;
-  background-image: url(./img/ima3.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
+
+
 .contenido-proyecto{
   max-width: 480PX;
   width: 100%;
