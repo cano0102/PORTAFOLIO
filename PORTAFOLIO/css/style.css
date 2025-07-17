@@ -121,7 +121,7 @@ header nav a:hover{
 /* estilos de mi foto */
 
 .foto-anderson,
-img {
+.andy {
   height: 300px;
   width: 300px;
   border-radius: 50%;
@@ -653,7 +653,7 @@ Estilos De Descripcion Y Nombres */
   align-items: center;
 }
 
-.herramientas-proyectos{
+.tecnologias-proyecto{
   max-width: 480PX;
   width: 100%;
   height: 30px;
