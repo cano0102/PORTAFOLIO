@@ -89,7 +89,6 @@ header {
     text-decoration: none;
     font-size: 18px;
     font-weight: 400;
-    
     transition: all 0.3s ease;
     position: relative;
     display: block;
@@ -101,7 +100,6 @@ header {
     color: #ffffff;
 }
 
-/* Efecto de rayo para el elemento activo */
 .menu-item.active .lightning {
     position: absolute;
     top: 100%;
