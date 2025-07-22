@@ -539,8 +539,8 @@ Estilos De Descripcion Y Nombres */
 }
 
 .contenedor-iconos :hover{
-    transform: scale(1.15);
-      transition: transform 0.3s ease;
+  transform: scale(1.15);
+  transition: transform 0.3s ease;
 }
 
 .iconos-javaScript{
@@ -663,15 +663,17 @@ Estilos De Descripcion Y Nombres */
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 34px;
 }
 
 
 .titulo-proyectos{
  color: white;
  display: flex;
- margin-top: 40px;
+ margin-top: 20px;
  text-shadow: 0 0 10px white, 0 0 20px white;
+ justify-content: center;
+ align-items: center;
 }
 
 .contenedor-proyectos{
@@ -757,4 +759,142 @@ Estilos De Descripcion Y Nombres */
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+
+/* sesion contacto */
+.sesion-contacto {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 3580px;
+  background-color: #0a0f29;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.titulo-contacto{
+  color: white;
+  display: flex;
+  margin-top: 50px;
+  text-shadow: 0 0 10px white, 0 0 20px white;
+
+}
+.trabajemos-juntos{
+ display: flex;
+ gap: 20px;
+ flex-direction: column;
+}
+.parrafo-contacto{
+ color: white;
+ width: 100%;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+
+}
+
+.parrafo-contacto p{
+ color: white;
+ width: 90%;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+
+}
+
+
+
+
+
+
+/* redes sociales de contacto */
+
+
+
+.redes-sociales-conctacto a{
+  text-decoration: none;
+}
+.redes-sociales-conctacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  
+}
+
+.redes-sociales-conctacto i {
+  color: white;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  background-color: #0000008f;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+  
+  
+}
+.redes-sociales-conctacto i:hover {
+  color: var(--color-primario);
+  text-shadow: 0 0 10px var(--color-primario);
+  transform: scale(1.15);
+
+}
+
+
+/* formilario */
+
+.formulario{
+ width: 90%;
+ height: 400px;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.formulario form{
+ width: 100%;
+ height: 400px;
+  background-color: #10173a;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+ gap: 20px;
+ border-radius: 10px;
+
+}
+
+
+
+
+
+input{
+  height: 40px;
+  width: 95%;
+  background-color: rgb(56, 56, 56);
+  border-radius: 10px;
+  border: solid 1px #00bfff;
+  color: white;
+
+}
+
+textarea{
+  width: 95%;
+  background-color: rgb(56, 56, 56);
+  border-radius: 10px;
+  border: solid 1px #00bfff;
+  color: white;
+
+}
+.boton-formulario{
+  background-color: #00bfff;
 }
