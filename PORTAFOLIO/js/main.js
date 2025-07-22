@@ -44,30 +44,25 @@ imagesConJS();
 
 
 
-// Efecto interactivo - cambiar el rayo a diferentes elementos
 const menuItems = document.querySelectorAll('.menu-item');
 const lightning = document.querySelector('.lightning');
 
 menuItems.forEach(item => {
     item.addEventListener('mouseenter', function() {
-        // Remover clase active de todos
         menuItems.forEach(nav => nav.classList.remove('active'));
         
-        // Agregar clase active al elemento actual
         this.classList.add('active');
         
-        // Mover el rayo al elemento actual
         if (lightning) {
             this.appendChild(lightning);
         }
     });
 });
 
-// Mantener "Inicio" como activo por defecto
 document.addEventListener('mouseleave', function(e) {
     if (!document.querySelector('header').contains(e.target)) {
         menuItems.forEach(nav => nav.classList.remove('active'));
-        const inicioItem = menuItems[0]; // El primer elemento (Inicio)
+        const inicioItem = menuItems[0];
         inicioItem.classList.add('active');
         if (lightning) {
             inicioItem.appendChild(lightning);
@@ -75,7 +70,6 @@ document.addEventListener('mouseleave', function(e) {
     }
 });
 
-// Opcional: Marcar como activo la página actual
 document.addEventListener('DOMContentLoaded', function() {
     const currentPage = window.location.pathname;
     const links = document.querySelectorAll('.menu a');
