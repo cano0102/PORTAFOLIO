@@ -378,8 +378,8 @@ Estilos De Descripcion Y Nombres */
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-top: 37px;
-     text-shadow: 0 0 10px white, 0 0 20px white;
+   margin-top: 10px;
+  text-shadow: 0 0 10px white, 0 0 20px white;
 
 }
 
@@ -656,7 +656,7 @@ Estilos De Descripcion Y Nombres */
 /* sesion de los proyectos */
 
 .sesion-proyectos{
-  min-height: 100vh;
+  min-height: auto;
   width: 100%;
   max-width: 480px;
   background-color: #0a0f29;
