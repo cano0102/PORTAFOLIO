@@ -252,6 +252,11 @@ Estilos De Descripcion Y Nombres */
   font-weight: bold;
 }
 
+.parrafoDescripcionYNombres{
+  width: 90%;
+
+}
+
 /* botones de cv y contacto */
 
 .cv-contacto{
