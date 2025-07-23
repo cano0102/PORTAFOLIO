@@ -826,6 +826,47 @@ Estilos De Descripcion Y Nombres */
   
 }
 
+
+
+
+
+.informacion-de-contacto{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+
+.titulo-info-contacto{
+  color: white;
+  text-shadow: 0 0 10px white, 0 0 20px white;
+
+}
+
+
+.info-contacto{
+  height: 200px;
+  width:90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.contact-item{
+  height: 40px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  color: white;
+  gap: 10px;
+}
+
 .redes-sociales-conctacto i {
   color: white;
   font-size: 18px;
@@ -853,7 +894,7 @@ Estilos De Descripcion Y Nombres */
 
 .formulario{
  width: 90%;
- height: 400px;
+ height: 340px;
  display: flex;
  align-items: center;
  flex-direction: column;
@@ -862,13 +903,13 @@ Estilos De Descripcion Y Nombres */
 
 .formulario form{
  width: 100%;
- height: 400px;
+ height: 340px;
   background-color: #10173a;
  display: flex;
  align-items: center;
  flex-direction: column;
  justify-content: center;
- gap: 20px;
+ gap: 10px;
  border-radius: 10px;
 
 }
@@ -898,3 +939,4 @@ textarea{
 .boton-formulario{
   background-color: #00bfff;
 }
+
