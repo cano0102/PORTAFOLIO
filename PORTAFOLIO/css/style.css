@@ -763,6 +763,31 @@ Estilos De Descripcion Y Nombres */
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* sesion contacto */
 .sesion-contacto {
   min-height: 100vh;
@@ -772,21 +797,23 @@ Estilos De Descripcion Y Nombres */
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 15px;
 
 }
 
 .titulo-contacto{
   color: white;
   display: flex;
-  margin-top: 50px;
   text-shadow: 0 0 10px white, 0 0 20px white;
 
 }
 .trabajemos-juntos{
- display: flex;
- gap: 20px;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 .parrafo-contacto{
  color: white;
@@ -844,11 +871,16 @@ Estilos De Descripcion Y Nombres */
 .titulo-info-contacto{
   color: white;
   text-shadow: 0 0 10px white, 0 0 20px white;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
 
 }
 
 
-.info-contacto{
+
+
+.infomacion-de-contacto{
   height: 200px;
   width:90%;
   display: flex;
@@ -894,16 +926,17 @@ Estilos De Descripcion Y Nombres */
 
 .formulario{
  width: 90%;
- height: 340px;
+ height: 500px;
  display: flex;
  align-items: center;
  flex-direction: column;
  justify-content: center;
+ gap: 20px;
 }
 
 .formulario form{
  width: 100%;
- height: 340px;
+ height: 300px;
   background-color: #10173a;
  display: flex;
  align-items: center;
