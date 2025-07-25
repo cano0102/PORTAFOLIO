@@ -24,7 +24,7 @@ function mostrarProyectos(imagenes) {
         contenedorproyectos.appendChild(proyecto1)
 
         const imagenproyecto1 = document.createElement("div");
-        imagenproyecto1.className = 'imagen-proyecto1';
+        imagenproyecto1.className = `imagen-proyecto${proyecto.id}`;
         proyecto1.appendChild(imagenproyecto1)
         
         const contenidoproyecto = document.createElement("div");
