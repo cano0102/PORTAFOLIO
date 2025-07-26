@@ -76,7 +76,7 @@ header {
 .menu {
     display: flex;
     list-style: none;
-    gap: 28px;
+    gap: 10px;
     align-items: center;
 }
 
@@ -87,7 +87,7 @@ header {
 .menu a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     transition: all 0.3s ease;
     position: relative;
@@ -693,7 +693,7 @@ Estilos De Descripcion Y Nombres */
 .proyecto-1{
   max-width: 480PX;
   width: 95%;
-  height: 270px;
+  height: 340px;
   border-radius: 30px;
 }
 
@@ -705,7 +705,7 @@ Estilos De Descripcion Y Nombres */
 .imagen-proyecto1{
   max-width: 480PX;
   width: 100%;
-  height: 135px;
+  height: 170px;
   background-image: url(./img/nat1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -718,7 +718,7 @@ Estilos De Descripcion Y Nombres */
 .imagen-proyecto2{
   max-width: 480PX;
   width: 100%;
-  height: 135px;
+  height: 170px;
   background-image: url(./img/ima2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -730,7 +730,7 @@ Estilos De Descripcion Y Nombres */
 .imagen-proyecto3{
   max-width: 480PX;
   width: 100%;
-  height: 135px;
+  height: 170px;
   background-image: url(./img/ima3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -745,7 +745,7 @@ Estilos De Descripcion Y Nombres */
 .contenido-proyecto{
   max-width: 480PX;
   width: 100%;
-  height: 135px;
+  height: 170px;
   background-color: #10173a;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -780,9 +780,23 @@ Estilos De Descripcion Y Nombres */
   max-width: 480PX;
   width: 90%;
   height: 30px;
-  color: #216dfb;
+  color: #0099ff;
   display: flex;
   align-items: center;
+  gap: 10px;
+}
+
+.herramts{
+
+  border-radius: 30px;
+  background-color: rgba(37, 99, 235, 0.1);
+  color: var(--primary-color);
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  
+
 }
 
 

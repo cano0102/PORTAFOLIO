@@ -6,15 +6,16 @@ const imagesConJS = async () => {
         
 
     mostrarProyectos(datos.imagenes);
-   
+    
 };
 
 function mostrarProyectos(imagenes) {
     const sesion = document.querySelector(".sesion-proyectos"); 
-
+    
     const contenedorproyectos = document.createElement("div");
     contenedorproyectos.className = 'contenedor-proyectos';
     sesion.appendChild(contenedorproyectos)
+   
 
     imagenes.forEach((proyecto) => {
 
@@ -31,16 +32,66 @@ function mostrarProyectos(imagenes) {
         contenidoproyecto.className = "contenido-proyecto";
         proyecto1.appendChild(contenidoproyecto)
 
+        
+
+
+
         contenidoproyecto.innerHTML = `
             <div class="titulo-proyecto"><h2>${proyecto.titulo}</h2></div>
             <div class="parrafo-proyecto"><p>${proyecto.descripcion}</p></div>
-            <div class="tecnologias-proyecto"><p>Tecnologías: ${proyecto.tecnologias}</p></div>
+            <div class="tecnologias-proyecto"></div>
+
         `;
+
+         let tecno = contenidoproyecto.querySelector(".tecnologias-proyecto")
+
+            let verptoyecto = document.createElement("a")
+            verptoyecto.href =proyecto.link
+            verptoyecto.textContent = "Ver codigo"
+            contenidoproyecto.appendChild(verptoyecto)
+
+
+
+            proyecto.tecnologias.forEach((tecnologias) =>{
+                let  tecnolog =  document.createElement("span")
+                tecnolog.className = "herramts"
+                tecnolog.textContent = tecnologias;
+                tecno.appendChild(tecnolog)
+            })
+         
+
 
     });
 }
 
 imagesConJS();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
