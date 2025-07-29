@@ -30,7 +30,7 @@ html{
 
 body{
   display: flex;
-  background-color: black; 
+  background-color: #000000;
   min-height: 100vh;
   justify-content: center;
   font-family: 'Poppins', sans-serif;
@@ -449,6 +449,20 @@ Estilos De Descripcion Y Nombres */
 
 }
 
+.quien-soy,
+.mi-objetivo,
+.mi-perfil {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.quien-soy:hover,
+.mi-objetivo:hover,
+.mi-perfil:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 191, 255, 0.3);
+}
+
+
 .titulo-sobremi{
   color: #00bfff;
   font-size: 19px;
@@ -529,7 +543,7 @@ Estilos De Descripcion Y Nombres */
   max-width: 480px;
   width: 90%;
   display: grid;
-  grid-template-columns: 130px 130px 130px; /* 3 columnas de 100px */
+  grid-template-columns: 130px 130px 130px; 
   grid-template-rows: 150px 150px;
   justify-content: center;
   gap: 25px;
@@ -539,10 +553,16 @@ Estilos De Descripcion Y Nombres */
   
 }
 
-.contenedor-iconos :hover{
-  transform: scale(1.15);
-  transition: transform 0.3s ease;
+.contenedor-iconos > * {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.contenedor-iconos > *:hover {
+  transform: translateY(-5px) scale(1.1);
+  box-shadow: 0 8px 15px rgba(0, 191, 255, 0.2);
+  border-radius: 12px;
+}
+
 
 .iconos-javaScript{
   display: flex;
@@ -653,8 +673,7 @@ Estilos De Descripcion Y Nombres */
 
 
 
-
-/* sesion de los proyectos */
+/* sesion proyectos */
 
 .sesion-proyectos{
   height: auto;
@@ -691,21 +710,15 @@ Estilos De Descripcion Y Nombres */
 }
 
 
-/* .proyecto-1{
-  max-width: 480PX;
-  width: 95%;
-  border-radius: 30px;
-}
- */
+
  .proyecto-1 {
   max-width: 480px;
   width: 95%;
   border-radius: 30px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* sombra inicial opcional */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Efecto al pasar el mouse */
 .proyecto-1:hover {
   transform: translateY(-5px) scale(1.03);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
