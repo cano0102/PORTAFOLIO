@@ -48,6 +48,7 @@ function mostrarProyectos(imagenes) {
             let verptoyecto = document.createElement("a")
             verptoyecto.href =proyecto.link
             verptoyecto.textContent = "Ver codigo"
+            verptoyecto.className = ("ver-codigo")
             contenidoproyecto.appendChild(verptoyecto)
 
 
