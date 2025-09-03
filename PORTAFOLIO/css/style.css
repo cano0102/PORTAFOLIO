@@ -780,7 +780,7 @@ Estilos De Descripcion Y Nombres */
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 17px;
 }
 .titulo-proyecto{
   max-width: 480PX;
