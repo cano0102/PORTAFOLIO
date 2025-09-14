@@ -70,6 +70,27 @@ imagesConJS();
 
 
 
+const gmail = document.querySelector(".gmail")
+
+
+gmail.addEventListener("click" , function (event) {
+    event.preventDefault()
+     
+    const copiarGmail = "canoanderson201@gmail.com"
+
+    navigator.clipboard.writeText(copiarGmail).then(() =>{
+        let toast  = document.querySelector(".toast")
+        toast.classList.add("show")
+
+        setTimeout(() =>{
+           toast.classList.remove("show")
+        },1500)
+    })
+
+
+
+})
+
 
 
 
