@@ -1,4 +1,4 @@
-const imagesConJS = async () => {
+const imagesConJS = async ( )=> {
     
     const respuesta = await fetch('./js/imagenes.json');
     const datos = await respuesta.json();
