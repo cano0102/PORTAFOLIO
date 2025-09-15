@@ -87,8 +87,6 @@ gmail.addEventListener("click" , function (event) {
         },1500)
     })
 
-
-
 })
 
 
