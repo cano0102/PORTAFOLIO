@@ -52,6 +52,13 @@ function mostrarProyectos(imagenes) {
             contenidoproyecto.appendChild(verptoyecto)
 
 
+            let verPry = document.createElement("a")
+            verPry.href =proyecto.link
+            verPry.textContent = "Ver proyecto"
+            verPry.className = ("ver-proyecto")
+            contenidoproyecto.appendChild(verPry)
+
+
 
             proyecto.tecnologias.forEach((tecnologias) =>{
                 let  tecnolog =  document.createElement("span")
