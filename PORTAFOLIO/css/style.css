@@ -843,7 +843,13 @@ Estilos De Descripcion Y Nombres */
 }
  */
 
-
+.botonesProyecto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+}
  .ver-codigo {
   border-radius: 20px;
   box-shadow: 0 0 10px var(--color-primario);
@@ -859,10 +865,32 @@ Estilos De Descripcion Y Nombres */
 }
 
 
+
+
 .ver-codigo:hover{
     background-color: var(--color-primario);
     transition: var(--transition);
 }
+
+.ver-proyecto{
+
+    border-radius: 20px;
+  box-shadow: 0 0 10px var(--color-primario);
+  background-color: #10173a;
+  padding: 10px 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+
+}
+
+.ver-proyecto:hover{
+    background-color: var(--color-primario);
+    transition: var(--transition);
+}
+
 
 
  /*----------------------------------------*/

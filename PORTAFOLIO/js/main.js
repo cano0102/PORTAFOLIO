@@ -45,19 +45,24 @@ function mostrarProyectos(imagenes) {
 
          let tecno = contenidoproyecto.querySelector(".tecnologias-proyecto")
 
-            let verptoyecto = document.createElement("a")
-            verptoyecto.href =proyecto.link
-            verptoyecto.textContent = "Ver codigo"
-            verptoyecto.className = ("ver-codigo")
-            contenidoproyecto.appendChild(verptoyecto)
+         
+         
+         let buttos = document.createElement("div")
+         buttos.className = ("botonesProyecto")
+         contenidoproyecto.appendChild(buttos)
+         
+         let verptoyecto = document.createElement("a")
+         verptoyecto.href =proyecto.link
+         verptoyecto.textContent = "Ver codigo"
+         verptoyecto.className = ("ver-codigo")
+         buttos.appendChild(verptoyecto)
 
 
-            let verPry = document.createElement("a")
-            verPry.href =proyecto.link
-            verPry.textContent = "Ver proyecto"
-            verPry.className = ("ver-proyecto")
-            contenidoproyecto.appendChild(verPry)
-
+         let verPry = document.createElement("a")
+         verPry.href =proyecto.link
+         verPry.textContent = "Ver proyecto"
+         verPry.className = ("ver-proyecto")
+         buttos.appendChild(verPry)
 
 
             proyecto.tecnologias.forEach((tecnologias) =>{
